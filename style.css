@@ -1,0 +1,68 @@
+/* Global styles for the body element */
+body {
+  /* White text color for contrast against background */
+  color: white;
+  /* Set background image */
+  background-image: url(laptop-image.jpg);
+  /* Prevent image from repeating */
+  background-repeat: no-repeat;
+  /* Fix background position on scroll */
+  background-attachment: fixed;
+  /* Stretch background to cover entire viewport */
+  background-size: 100%;
+}
+
+/* Green background for h2 elements with .h2-green class */
+.h2-green {
+  background-color: green;
+}
+
+/* Blue background color for the div with .div-blue class */
+.div-blue {
+  background-color: rgb(121, 177, 245);
+}
+
+/* Yellow background and black text color for paragraphs with .p-yellow class */
+.p-yellow {
+  background-color: yellow;
+  color: black;
+}
+
+/* Default green background for all div elements */
+div {
+  background-color: green;
+}
+
+/* Set different opacity levels for div elements with classes .first, .second, and .third */
+
+/* Low opacity level for .first div */
+div.first {
+  opacity: 0.1;
+}
+
+/* Medium-low opacity level for .second div */
+div.second {
+  opacity: 0.3;
+}
+
+/* Medium opacity level for .third div */
+div.third {
+  opacity: 0.6;
+}
+
+/* Background color with varying opacity using rgba() for divs with classes div1, div2, and div3 */
+
+/* Green background with 10% opacity for .div1 */
+div.div1 {
+  background-color: rgba(0, 128, 0, 0.1);
+}
+
+/* Green background with 30% opacity for .div2 */
+div.div2 {
+  background-color: rgba(0, 128, 0, 0.3);
+}
+
+/* Green background with 60% opacity for .div3 */
+div.div3 {
+  background-color: rgba(0, 128, 0, 0.6);
+}
